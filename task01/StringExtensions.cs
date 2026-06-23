@@ -1,4 +1,5 @@
-﻿public static class StringExtensions
+﻿namespace task01;
+public static class StringExtensions
 {
     public static bool IsPalindrome(this string input)
     {
