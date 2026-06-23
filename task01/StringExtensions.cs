@@ -13,6 +13,10 @@
                 count++;
             }
         }
+        if (count == 0)
+        {
+            return false;
+        }
         string s = new string(ch, 0, count);
         char[] reverse = new char[count];
         for (int i = 0; i < count; i++)
